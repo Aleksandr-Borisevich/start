@@ -124,7 +124,6 @@ a {
 	right: 0;
 }
 
-
 /* ---------S E R V I C E S----------- */
 .services {
 	padding-top: 330px;
@@ -231,157 +230,154 @@ a {
 	line-height: 17px;
 }
 
-
 /* ---------S E R V I C E S----------- */
-.benefits{
+.benefits {
 	margin-bottom: 100px;
 }
 
-.benefits__inner{
+.benefits__inner {
 	display: flex;
 }
 
-.benefits__images{
+.benefits__images {
 	margin-right: 95px;
 }
 
-.benefits__content{
+.benefits__content {
 	width: 100%;
 	color: #fff;
 }
 
-.benefits__title{
+.benefits__title {
 	margin-left: 185px;
 }
 
-.benefits__list{
+.benefits__list {
 	max-width: 785px;
 	padding: 23px 10px 23px 185px;
 	list-style: none;
-	background-color: #21062A;
+	background-color: #21062a;
 }
 
-.benefits__item{
+.benefits__item {
 	max-width: 320px;
 	margin-bottom: 20px;
 }
 
-.benefits__item-num{
+.benefits__item-num {
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 53px;
 }
 
-.benefits__item-title{
+.benefits__item-title {
 	font-size: 24px;
 	font-weight: 300;
 	line-height: 36px;
 }
 
-.benefits__item-text{
-	color: #C4C4C4;
+.benefits__item-text {
+	color: #c4c4c4;
 }
 
-
 /* ---------C A R O U S E L----------- */
-.carousel{
+.carousel {
 	margin-bottom: 100px;
 }
 
-.carousel__inner{
+.carousel__inner {
 	margin: 0 -7px;
 }
 
-.carousel__item-box{
+.carousel__item-box {
 	margin: 0 7px;
 	padding: 6px 6px 16px 6px;
-	border: 1px solid #C4C4C4;
+	border: 1px solid #c4c4c4;
 	text-align: center;
-	background-color:  #fff;
-	transition: all .5s ease;
+	background-color: #fff;
+	transition: all 0.5s ease;
 }
-.carousel__item-box:hover{
-	background-color:  #5A0D67;
-	border: 1px solid #5A0D67;
+.carousel__item-box:hover {
+	background-color: #5a0d67;
+	border: 1px solid #5a0d67;
 	color: #fff;
 }
 
-.carousel__item-img{
+.carousel__item-img {
 	margin-bottom: 22px;
 	max-width: 100%;
 }
 
-.carousel__item-title{
+.carousel__item-title {
 	margin-bottom: 5px;
 	font-weight: 300;
 }
 
 /* --------------------------- */
-.carousel .slick-dots{
+.carousel .slick-dots {
 	margin-top: 50px;
 	list-style: none;
 	display: flex;
 	justify-content: center;
 }
 
-.carousel .slick-dots button{
+.carousel .slick-dots button {
 	margin: 0 10px;
 	padding: 0;
 	font-size: 0;
 	width: 50px;
 	height: 1px;
-	background-color:  #C4C4C4;
+	background-color: #c4c4c4;
 	border: none;
 	cursor: pointer;
 }
-.carousel .slick-active button{
+.carousel .slick-active button {
 	height: 3px;
-	background-color:  #5A0D67;
+	background-color: #5a0d67;
 }
 
-
 /* ---------C O N T A C T S----------- */
-.contacts__inner{
+.contacts__inner {
 	display: flex;
 	justify-content: space-between;
 }
 
-.contacts__info{
+.contacts__info {
 	padding: 50px 0 37px;
 }
 
-.contacts__list{
+.contacts__list {
 	list-style: none;
 }
 
-.contacts__item{
+.contacts__item {
 	margin-bottom: 20px;
 }
 
-.contacts__item-title{
+.contacts__item-title {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 27px;
-	color: #5A0D67;
+	color: #5a0d67;
 }
 
 /* ------------------- */
-.contacts__form{
+.contacts__form {
 	padding: 50px 75px 57px;
-	background-color: #21062A;
+	background-color: #21062a;
 	text-align: center;
 }
 
-.contacts__title{
+.contacts__title {
 	margin: 0 0 17px 50px;
 	color: #fff;
 	text-align: left;
 }
-.contacts__title::after{
+.contacts__title::after {
 	background-color: #fff;
 }
 
-.contacts__input{
+.contacts__input {
 	width: 450px;
 	margin: 12px auto;
 	padding: 24px 20px;
@@ -393,16 +389,16 @@ a {
 	text-align: center;
 }
 
-.contacts__input::placeholder{
+.contacts__input::placeholder {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	font-size: 18px;
 	line-height: 27px;
 	font-weight: 300;
-	color: #C4C4C4;
+	color: #c4c4c4;
 }
 
-.contacts__btn{
+.contacts__btn {
 	margin-top: 75px;
 	border: none;
 	color: #fff;
@@ -414,11 +410,11 @@ a {
 }
 
 /* ---------F O O T E R----------- */
-.footer{
-	background-color: #21062A;
+.footer {
+	background-color: #21062a;
 }
 
-.footer__inner{
+.footer__inner {
 	padding: 23px 0 24px;
 	display: flex;
 	justify-content: space-between;
