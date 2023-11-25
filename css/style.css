@@ -32,6 +32,7 @@ a {
 	line-height: 21px;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
+	cursor: pointer;
 }
 
 .button:hover {
@@ -57,6 +58,7 @@ a {
 	background-color: #21062a;
 	top: 25px;
 }
+
 
 /* ---------H E A D E R----------- */
 .header {
@@ -121,6 +123,7 @@ a {
 	bottom: -290px;
 	right: 0;
 }
+
 
 /* ---------S E R V I C E S----------- */
 .services {
@@ -228,6 +231,7 @@ a {
 	line-height: 17px;
 }
 
+
 /* ---------S E R V I C E S----------- */
 .benefits{
 	margin-bottom: 100px;
@@ -277,6 +281,7 @@ a {
 .benefits__item-text{
 	color: #C4C4C4;
 }
+
 
 /* ---------C A R O U S E L----------- */
 .carousel{
@@ -332,4 +337,77 @@ a {
 .carousel .slick-active button{
 	height: 3px;
 	background-color:  #5A0D67;
+}
+
+
+/* ---------C O N T A C T S----------- */
+.contacts__inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__info{
+	padding: 57px 0 37px;
+}
+
+.contacts__list{
+	list-style: none;
+}
+
+.contacts__item{
+	margin-bottom: 20px;
+}
+
+.contacts__item-title{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 27px;
+	color: #5A0D67;
+}
+
+.contacts__form{
+	padding: 50px 75px 57px;
+	background-color: #21062A;
+	text-align: center;
+}
+
+.contacts__title{
+	margin: 0 0 17px 50px;
+	color: #fff;
+	text-align: left;
+}
+.contacts__title::after{
+	background-color: #fff;
+}
+
+.contacts__input{
+	width: 450px;
+	margin: 12px auto;
+	padding: 24px 20px;
+	display: block;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 20px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.contacts__input::placeholder{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 300;
+	color: #C4C4C4;
+}
+
+.contacts__btn{
+	margin-top: 75px;
+	border: none;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	text-transform: uppercase;
 }
